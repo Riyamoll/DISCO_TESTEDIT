@@ -12,6 +12,8 @@ c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.
                               c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
                               Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o (memcpy)
+c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memmove.o)
+                              Src/sh1106test.o (memmove)
 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memset.o)
                               c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
@@ -2523,253 +2525,259 @@ Discarded input sections
  .debug_macro   0x00000000       0x4d Src/main.o
  .debug_macro   0x00000000       0x2d Src/main.o
  .debug_macro   0x00000000      0x2f0 Src/main.o
- .debug_macro   0x00000000       0xf8 Src/main.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306.o
- .text          0x00000000        0x0 Src/ssd1306.o
- .data          0x00000000        0x0 Src/ssd1306.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106.o
+ .text          0x00000000        0x0 Src/sh1106.o
+ .data          0x00000000        0x0 Src/sh1106.o
  .text.ssd1306TurnOff
-                0x00000000       0x30 Src/ssd1306.o
- .debug_macro   0x00000000      0x832 Src/ssd1306.o
- .debug_macro   0x00000000       0x22 Src/ssd1306.o
- .debug_macro   0x00000000       0x35 Src/ssd1306.o
- .debug_macro   0x00000000       0x9c Src/ssd1306.o
- .debug_macro   0x00000000       0x52 Src/ssd1306.o
- .debug_macro   0x00000000       0x1f Src/ssd1306.o
- .debug_macro   0x00000000       0x43 Src/ssd1306.o
- .debug_macro   0x00000000       0x20 Src/ssd1306.o
- .debug_macro   0x00000000      0x187 Src/ssd1306.o
- .debug_macro   0x00000000      0x30d Src/ssd1306.o
- .debug_macro   0x00000000       0x64 Src/ssd1306.o
- .debug_macro   0x00000000       0xa5 Src/ssd1306.o
- .debug_macro   0x00000000       0x2e Src/ssd1306.o
- .debug_macro   0x00000000       0x22 Src/ssd1306.o
- .debug_macro   0x00000000       0xfd Src/ssd1306.o
- .debug_macro   0x00000000       0x5e Src/ssd1306.o
- .debug_macro   0x00000000      0x1df Src/ssd1306.o
- .debug_macro   0x00000000       0x34 Src/ssd1306.o
- .debug_macro   0x00000000       0x26 Src/ssd1306.o
- .debug_macro   0x00000000      0x30d Src/ssd1306.o
- .debug_macro   0x00000000     0x6fa9 Src/ssd1306.o
- .debug_macro   0x00000000       0x3c Src/ssd1306.o
- .debug_macro   0x00000000       0x10 Src/ssd1306.o
- .debug_macro   0x00000000       0x10 Src/ssd1306.o
- .debug_macro   0x00000000       0x1c Src/ssd1306.o
- .debug_macro   0x00000000       0x52 Src/ssd1306.o
- .debug_macro   0x00000000       0x40 Src/ssd1306.o
- .debug_macro   0x00000000       0x10 Src/ssd1306.o
- .debug_macro   0x00000000       0x40 Src/ssd1306.o
- .debug_macro   0x00000000       0xd7 Src/ssd1306.o
- .debug_macro   0x00000000       0x16 Src/ssd1306.o
- .debug_macro   0x00000000      0x18b Src/ssd1306.o
- .debug_macro   0x00000000       0x49 Src/ssd1306.o
- .debug_macro   0x00000000      0x92f Src/ssd1306.o
- .debug_macro   0x00000000      0x180 Src/ssd1306.o
- .debug_macro   0x00000000      0x13a Src/ssd1306.o
- .debug_macro   0x00000000       0xdd Src/ssd1306.o
- .debug_macro   0x00000000      0x1ed Src/ssd1306.o
- .debug_macro   0x00000000       0x34 Src/ssd1306.o
- .debug_macro   0x00000000       0x43 Src/ssd1306.o
- .debug_macro   0x00000000       0x28 Src/ssd1306.o
- .debug_macro   0x00000000       0xb6 Src/ssd1306.o
- .debug_macro   0x00000000      0x199 Src/ssd1306.o
- .debug_macro   0x00000000      0x202 Src/ssd1306.o
- .debug_macro   0x00000000       0x61 Src/ssd1306.o
- .debug_macro   0x00000000       0x90 Src/ssd1306.o
- .debug_macro   0x00000000       0x4d Src/ssd1306.o
- .debug_macro   0x00000000       0x2d Src/ssd1306.o
- .debug_macro   0x00000000      0x2f0 Src/ssd1306.o
- .debug_macro   0x00000000       0xf8 Src/ssd1306.o
- .debug_macro   0x00000000      0x1e1 Src/ssd1306.o
- .debug_macro   0x00000000      0x10c Src/ssd1306.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .group         0x00000000        0x8 Src/ssd1306libtest.o
- .text          0x00000000        0x0 Src/ssd1306libtest.o
- .data          0x00000000        0x0 Src/ssd1306libtest.o
- .bss           0x00000000        0x0 Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x832 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x64 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0xa5 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x2e Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x22 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x22 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x87 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x44 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0xfd Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x5e Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x1df Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x34 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x26 Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x30d Src/ssd1306libtest.o
- .debug_macro   0x00000000     0x6fa9 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x3c Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x52 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x35 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x9c Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x16 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x97 Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x30d Src/ssd1306libtest.o
- .debug_macro   0x00000000       0xfd Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x10 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x52 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x1f Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x43 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x20 Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x187 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x10 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x1c Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x52 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x40 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x10 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x40 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0xd7 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x16 Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x18b Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x49 Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x92f Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x180 Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x13a Src/ssd1306libtest.o
- .debug_macro   0x00000000       0xdd Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x1ed Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x34 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x43 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x28 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0xb6 Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x199 Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x202 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x61 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x90 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x4d Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x2d Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x2f0 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0xf8 Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x1e1 Src/ssd1306libtest.o
- .debug_macro   0x00000000      0x10c Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x16 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x35 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x16 Src/ssd1306libtest.o
- .debug_macro   0x00000000       0x29 Src/ssd1306libtest.o
+                0x00000000       0x30 Src/sh1106.o
+ .debug_macro   0x00000000      0x832 Src/sh1106.o
+ .debug_macro   0x00000000       0x64 Src/sh1106.o
+ .debug_macro   0x00000000       0xa5 Src/sh1106.o
+ .debug_macro   0x00000000       0x2e Src/sh1106.o
+ .debug_macro   0x00000000       0x22 Src/sh1106.o
+ .debug_macro   0x00000000       0x22 Src/sh1106.o
+ .debug_macro   0x00000000       0x87 Src/sh1106.o
+ .debug_macro   0x00000000       0x44 Src/sh1106.o
+ .debug_macro   0x00000000       0xfd Src/sh1106.o
+ .debug_macro   0x00000000       0x5e Src/sh1106.o
+ .debug_macro   0x00000000      0x1df Src/sh1106.o
+ .debug_macro   0x00000000       0x34 Src/sh1106.o
+ .debug_macro   0x00000000       0x26 Src/sh1106.o
+ .debug_macro   0x00000000      0x30d Src/sh1106.o
+ .debug_macro   0x00000000     0x6fa9 Src/sh1106.o
+ .debug_macro   0x00000000       0x3c Src/sh1106.o
+ .debug_macro   0x00000000       0x52 Src/sh1106.o
+ .debug_macro   0x00000000       0x35 Src/sh1106.o
+ .debug_macro   0x00000000       0x9c Src/sh1106.o
+ .debug_macro   0x00000000       0x16 Src/sh1106.o
+ .debug_macro   0x00000000       0x97 Src/sh1106.o
+ .debug_macro   0x00000000      0x30d Src/sh1106.o
+ .debug_macro   0x00000000       0xfd Src/sh1106.o
+ .debug_macro   0x00000000       0x10 Src/sh1106.o
+ .debug_macro   0x00000000       0x52 Src/sh1106.o
+ .debug_macro   0x00000000       0x1f Src/sh1106.o
+ .debug_macro   0x00000000       0x43 Src/sh1106.o
+ .debug_macro   0x00000000       0x20 Src/sh1106.o
+ .debug_macro   0x00000000      0x187 Src/sh1106.o
+ .debug_macro   0x00000000       0x10 Src/sh1106.o
+ .debug_macro   0x00000000       0x1c Src/sh1106.o
+ .debug_macro   0x00000000       0x52 Src/sh1106.o
+ .debug_macro   0x00000000       0x40 Src/sh1106.o
+ .debug_macro   0x00000000       0x10 Src/sh1106.o
+ .debug_macro   0x00000000       0x40 Src/sh1106.o
+ .debug_macro   0x00000000       0xd7 Src/sh1106.o
+ .debug_macro   0x00000000       0x16 Src/sh1106.o
+ .debug_macro   0x00000000      0x18b Src/sh1106.o
+ .debug_macro   0x00000000       0x49 Src/sh1106.o
+ .debug_macro   0x00000000      0x92f Src/sh1106.o
+ .debug_macro   0x00000000      0x180 Src/sh1106.o
+ .debug_macro   0x00000000      0x13a Src/sh1106.o
+ .debug_macro   0x00000000       0xdd Src/sh1106.o
+ .debug_macro   0x00000000      0x1ed Src/sh1106.o
+ .debug_macro   0x00000000       0x34 Src/sh1106.o
+ .debug_macro   0x00000000       0x43 Src/sh1106.o
+ .debug_macro   0x00000000       0x28 Src/sh1106.o
+ .debug_macro   0x00000000       0xb6 Src/sh1106.o
+ .debug_macro   0x00000000      0x199 Src/sh1106.o
+ .debug_macro   0x00000000      0x202 Src/sh1106.o
+ .debug_macro   0x00000000       0x61 Src/sh1106.o
+ .debug_macro   0x00000000       0x90 Src/sh1106.o
+ .debug_macro   0x00000000       0x4d Src/sh1106.o
+ .debug_macro   0x00000000       0x2d Src/sh1106.o
+ .debug_macro   0x00000000      0x2f0 Src/sh1106.o
+ .debug_macro   0x00000000       0xf8 Src/sh1106.o
+ .debug_macro   0x00000000      0x1e1 Src/sh1106.o
+ .debug_macro   0x00000000      0x112 Src/sh1106.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .group         0x00000000        0x8 Src/sh1106test.o
+ .text          0x00000000        0x0 Src/sh1106test.o
+ .data          0x00000000        0x0 Src/sh1106test.o
+ .bss           0x00000000        0x0 Src/sh1106test.o
+ .debug_macro   0x00000000      0x832 Src/sh1106test.o
+ .debug_macro   0x00000000       0x64 Src/sh1106test.o
+ .debug_macro   0x00000000       0xa5 Src/sh1106test.o
+ .debug_macro   0x00000000       0x2e Src/sh1106test.o
+ .debug_macro   0x00000000       0x22 Src/sh1106test.o
+ .debug_macro   0x00000000       0x22 Src/sh1106test.o
+ .debug_macro   0x00000000       0x87 Src/sh1106test.o
+ .debug_macro   0x00000000       0x44 Src/sh1106test.o
+ .debug_macro   0x00000000       0xfd Src/sh1106test.o
+ .debug_macro   0x00000000       0x5e Src/sh1106test.o
+ .debug_macro   0x00000000      0x1df Src/sh1106test.o
+ .debug_macro   0x00000000       0x34 Src/sh1106test.o
+ .debug_macro   0x00000000       0x26 Src/sh1106test.o
+ .debug_macro   0x00000000      0x30d Src/sh1106test.o
+ .debug_macro   0x00000000     0x6fa9 Src/sh1106test.o
+ .debug_macro   0x00000000       0x3c Src/sh1106test.o
+ .debug_macro   0x00000000       0x52 Src/sh1106test.o
+ .debug_macro   0x00000000       0x35 Src/sh1106test.o
+ .debug_macro   0x00000000       0x9c Src/sh1106test.o
+ .debug_macro   0x00000000       0x16 Src/sh1106test.o
+ .debug_macro   0x00000000       0x97 Src/sh1106test.o
+ .debug_macro   0x00000000      0x30d Src/sh1106test.o
+ .debug_macro   0x00000000       0xfd Src/sh1106test.o
+ .debug_macro   0x00000000       0x10 Src/sh1106test.o
+ .debug_macro   0x00000000       0x52 Src/sh1106test.o
+ .debug_macro   0x00000000       0x1f Src/sh1106test.o
+ .debug_macro   0x00000000       0x43 Src/sh1106test.o
+ .debug_macro   0x00000000       0x20 Src/sh1106test.o
+ .debug_macro   0x00000000      0x187 Src/sh1106test.o
+ .debug_macro   0x00000000       0x10 Src/sh1106test.o
+ .debug_macro   0x00000000       0x1c Src/sh1106test.o
+ .debug_macro   0x00000000       0x52 Src/sh1106test.o
+ .debug_macro   0x00000000       0x40 Src/sh1106test.o
+ .debug_macro   0x00000000       0x10 Src/sh1106test.o
+ .debug_macro   0x00000000       0x40 Src/sh1106test.o
+ .debug_macro   0x00000000       0xd7 Src/sh1106test.o
+ .debug_macro   0x00000000       0x16 Src/sh1106test.o
+ .debug_macro   0x00000000      0x18b Src/sh1106test.o
+ .debug_macro   0x00000000       0x49 Src/sh1106test.o
+ .debug_macro   0x00000000      0x92f Src/sh1106test.o
+ .debug_macro   0x00000000      0x180 Src/sh1106test.o
+ .debug_macro   0x00000000      0x13a Src/sh1106test.o
+ .debug_macro   0x00000000       0xdd Src/sh1106test.o
+ .debug_macro   0x00000000      0x1ed Src/sh1106test.o
+ .debug_macro   0x00000000       0x34 Src/sh1106test.o
+ .debug_macro   0x00000000       0x43 Src/sh1106test.o
+ .debug_macro   0x00000000       0x28 Src/sh1106test.o
+ .debug_macro   0x00000000       0xb6 Src/sh1106test.o
+ .debug_macro   0x00000000      0x199 Src/sh1106test.o
+ .debug_macro   0x00000000      0x202 Src/sh1106test.o
+ .debug_macro   0x00000000       0x61 Src/sh1106test.o
+ .debug_macro   0x00000000       0x90 Src/sh1106test.o
+ .debug_macro   0x00000000       0x4d Src/sh1106test.o
+ .debug_macro   0x00000000       0x2d Src/sh1106test.o
+ .debug_macro   0x00000000      0x2f0 Src/sh1106test.o
+ .debug_macro   0x00000000       0xf8 Src/sh1106test.o
+ .debug_macro   0x00000000       0x16 Src/sh1106test.o
+ .debug_macro   0x00000000       0x35 Src/sh1106test.o
+ .debug_macro   0x00000000       0x16 Src/sh1106test.o
+ .debug_macro   0x00000000       0x29 Src/sh1106test.o
+ .debug_macro   0x00000000      0x1e1 Src/sh1106test.o
+ .debug_macro   0x00000000       0x16 Src/sh1106test.o
  .group         0x00000000        0x8 Src/stm32f0xx_hal_msp.o
  .group         0x00000000        0x8 Src/stm32f0xx_hal_msp.o
  .group         0x00000000        0x8 Src/stm32f0xx_hal_msp.o
@@ -3149,6 +3157,9 @@ Discarded input sections
  .text          0x00000000        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
  .data          0x00000000        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
  .bss           0x00000000        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memmove.o)
  .text          0x00000000        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memset.o)
  .data          0x00000000        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memset.o)
  .bss           0x00000000        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memset.o)
@@ -3203,8 +3214,8 @@ LOAD Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.o
 LOAD Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.o
 LOAD Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.o
 LOAD Src/main.o
-LOAD Src/ssd1306.o
-LOAD Src/ssd1306libtest.o
+LOAD Src/sh1106.o
+LOAD Src/sh1106test.o
 LOAD Src/stm32f0xx_hal_msp.o
 LOAD Src/stm32f0xx_it.o
 LOAD Src/system_stm32f0xx.o
@@ -3237,7 +3248,7 @@ LOAD c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6
                 0x08000000                g_pfnVectors
                 0x080000c0                . = ALIGN (0x4)
 
-.text           0x080000c0     0x1830
+.text           0x080000c0     0x18f0
                 0x080000c0                . = ALIGN (0x4)
  *(.text)
  .text          0x080000c0       0x60 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
@@ -3319,163 +3330,161 @@ LOAD c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6
  .text.SystemClock_Config
                 0x080010c8       0x7c Src/main.o
                 0x080010c8                SystemClock_Config
- .text.main     0x08001144       0x28 Src/main.o
+ .text.main     0x08001144       0x24 Src/main.o
                 0x08001144                main
  .text.ssd1306SendByte
-                0x0800116c       0x1c Src/ssd1306.o
-                0x0800116c                ssd1306SendByte
- .text.ssd1306TurnOn
-                0x08001188       0x30 Src/ssd1306.o
-                0x08001188                ssd1306TurnOn
- .text.ssd1306Init
-                0x080011b8      0x374 Src/ssd1306.o
-                0x080011b8                ssd1306Init
- .text.ssd1306ClearScreen
-                0x0800152c       0x60 Src/ssd1306.o
-                0x0800152c                ssd1306ClearScreen
- .text.ssd1306MixFrameBuffer
-                0x0800158c       0x14 Src/ssd1306.o
-                0x0800158c                ssd1306MixFrameBuffer
+                0x08001168       0x1c Src/sh1106.o
+                0x08001168                ssd1306SendByte
  .text.ssd1306Refresh
-                0x080015a0       0x8c Src/ssd1306.o
-                0x080015a0                ssd1306Refresh
+                0x08001184       0x88 Src/sh1106.o
+                0x08001184                ssd1306Refresh
+ .text.ssd1306TurnOn
+                0x0800120c       0x30 Src/sh1106.o
+                0x0800120c                ssd1306TurnOn
+ .text.ssd1306Init
+                0x0800123c      0x37c Src/sh1106.o
+                0x0800123c                ssd1306Init
+ .text.ssd1306ClearScreen
+                0x080015b8       0x60 Src/sh1106.o
+                0x080015b8                ssd1306ClearScreen
  .text.SSD1306LibTest
-                0x0800162c       0xf4 Src/ssd1306libtest.o
-                0x0800162c                SSD1306LibTest
+                0x08001618      0x1a0 Src/sh1106test.o
+                0x08001618                SSD1306LibTest
  .text.HAL_MspInit
-                0x08001720       0x40 Src/stm32f0xx_hal_msp.o
-                0x08001720                HAL_MspInit
+                0x080017b8       0x40 Src/stm32f0xx_hal_msp.o
+                0x080017b8                HAL_MspInit
  .text.HAL_SPI_MspInit
-                0x08001760       0x48 Src/stm32f0xx_hal_msp.o
-                0x08001760                HAL_SPI_MspInit
+                0x080017f8       0x48 Src/stm32f0xx_hal_msp.o
+                0x080017f8                HAL_SPI_MspInit
  .text.NMI_Handler
-                0x080017a8        0x4 Src/stm32f0xx_it.o
-                0x080017a8                NMI_Handler
+                0x08001840        0x4 Src/stm32f0xx_it.o
+                0x08001840                NMI_Handler
  .text.HardFault_Handler
-                0x080017ac        0x4 Src/stm32f0xx_it.o
-                0x080017ac                HardFault_Handler
+                0x08001844        0x4 Src/stm32f0xx_it.o
+                0x08001844                HardFault_Handler
  .text.SVC_Handler
-                0x080017b0        0x4 Src/stm32f0xx_it.o
-                0x080017b0                SVC_Handler
+                0x08001848        0x4 Src/stm32f0xx_it.o
+                0x08001848                SVC_Handler
  .text.PendSV_Handler
-                0x080017b4        0x4 Src/stm32f0xx_it.o
-                0x080017b4                PendSV_Handler
+                0x0800184c        0x4 Src/stm32f0xx_it.o
+                0x0800184c                PendSV_Handler
  .text.SysTick_Handler
-                0x080017b8        0xc Src/stm32f0xx_it.o
-                0x080017b8                SysTick_Handler
+                0x08001850        0xc Src/stm32f0xx_it.o
+                0x08001850                SysTick_Handler
  .text.SystemInit
-                0x080017c4       0x60 Src/system_stm32f0xx.o
-                0x080017c4                SystemInit
+                0x0800185c       0x60 Src/system_stm32f0xx.o
+                0x0800185c                SystemInit
  .text.Reset_Handler
-                0x08001824       0x50 startup/startup_stm32f030x8.o
-                0x08001824                Reset_Handler
+                0x080018bc       0x50 startup/startup_stm32f030x8.o
+                0x080018bc                Reset_Handler
  .text.Default_Handler
-                0x08001874        0x2 startup/startup_stm32f030x8.o
-                0x08001874                TIM1_CC_IRQHandler
-                0x08001874                TIM6_IRQHandler
-                0x08001874                I2C1_IRQHandler
-                0x08001874                SPI1_IRQHandler
-                0x08001874                EXTI2_3_IRQHandler
-                0x08001874                ADC1_IRQHandler
-                0x08001874                I2C2_IRQHandler
-                0x08001874                TIM17_IRQHandler
-                0x08001874                RTC_IRQHandler
-                0x08001874                TIM16_IRQHandler
-                0x08001874                TIM3_IRQHandler
-                0x08001874                EXTI4_15_IRQHandler
-                0x08001874                RCC_IRQHandler
-                0x08001874                DMA1_Channel1_IRQHandler
-                0x08001874                Default_Handler
-                0x08001874                TIM14_IRQHandler
-                0x08001874                DMA1_Channel4_5_IRQHandler
-                0x08001874                TIM15_IRQHandler
-                0x08001874                EXTI0_1_IRQHandler
-                0x08001874                SPI2_IRQHandler
-                0x08001874                WWDG_IRQHandler
-                0x08001874                DMA1_Channel2_3_IRQHandler
-                0x08001874                USART2_IRQHandler
-                0x08001874                FLASH_IRQHandler
-                0x08001874                USART1_IRQHandler
-                0x08001874                TIM1_BRK_UP_TRG_COM_IRQHandler
- *fill*         0x08001876        0x2 
+                0x0800190c        0x2 startup/startup_stm32f030x8.o
+                0x0800190c                TIM1_CC_IRQHandler
+                0x0800190c                TIM6_IRQHandler
+                0x0800190c                I2C1_IRQHandler
+                0x0800190c                SPI1_IRQHandler
+                0x0800190c                EXTI2_3_IRQHandler
+                0x0800190c                ADC1_IRQHandler
+                0x0800190c                I2C2_IRQHandler
+                0x0800190c                TIM17_IRQHandler
+                0x0800190c                RTC_IRQHandler
+                0x0800190c                TIM16_IRQHandler
+                0x0800190c                TIM3_IRQHandler
+                0x0800190c                EXTI4_15_IRQHandler
+                0x0800190c                RCC_IRQHandler
+                0x0800190c                DMA1_Channel1_IRQHandler
+                0x0800190c                Default_Handler
+                0x0800190c                TIM14_IRQHandler
+                0x0800190c                DMA1_Channel4_5_IRQHandler
+                0x0800190c                TIM15_IRQHandler
+                0x0800190c                EXTI0_1_IRQHandler
+                0x0800190c                SPI2_IRQHandler
+                0x0800190c                WWDG_IRQHandler
+                0x0800190c                DMA1_Channel2_3_IRQHandler
+                0x0800190c                USART2_IRQHandler
+                0x0800190c                FLASH_IRQHandler
+                0x0800190c                USART1_IRQHandler
+                0x0800190c                TIM1_BRK_UP_TRG_COM_IRQHandler
+ *fill*         0x0800190e        0x2 
  .text.__libc_init_array
-                0x08001878       0x4c c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
-                0x08001878                __libc_init_array
- .text.memcpy   0x080018c4       0x12 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
-                0x080018c4                memcpy
+                0x08001910       0x4c c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+                0x08001910                __libc_init_array
+ .text.memcpy   0x0800195c       0x12 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
+                0x0800195c                memcpy
+ .text.memmove  0x0800196e       0x2a c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memmove.o)
+                0x0800196e                memmove
  *(.glue_7)
- .glue_7        0x080018d6        0x0 linker stubs
+ .glue_7        0x08001998        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080018d6        0x0 linker stubs
+ .glue_7t       0x08001998        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x080018d6        0x2 
- .eh_frame      0x080018d8        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .eh_frame      0x08001998        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
  *(.init)
- .init          0x080018d8        0x4 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
-                0x080018d8                _init
- .init          0x080018dc        0x8 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+ .init          0x08001998        0x4 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+                0x08001998                _init
+ .init          0x0800199c        0x8 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
  *(.fini)
- .fini          0x080018e4        0x4 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
-                0x080018e4                _fini
- .fini          0x080018e8        0x8 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
-                0x080018f0                . = ALIGN (0x4)
-                0x080018f0                _etext = .
+ .fini          0x080019a4        0x4 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+                0x080019a4                _fini
+ .fini          0x080019a8        0x8 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+                0x080019b0                . = ALIGN (0x4)
+                0x080019b0                _etext = .
 
-.vfp11_veneer   0x080018f0        0x0
- .vfp11_veneer  0x080018f0        0x0 linker stubs
+.vfp11_veneer   0x080019b0        0x0
+ .vfp11_veneer  0x080019b0        0x0 linker stubs
 
-.v4_bx          0x080018f0        0x0
- .v4_bx         0x080018f0        0x0 linker stubs
+.v4_bx          0x080019b0        0x0
+ .v4_bx         0x080019b0        0x0 linker stubs
 
-.iplt           0x080018f0        0x0
- .iplt          0x080018f0        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+.iplt           0x080019b0        0x0
+ .iplt          0x080019b0        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
 
-.rodata         0x080018f0      0x1bc
-                0x080018f0                . = ALIGN (0x4)
+.rodata         0x080019b0      0x3ac
+                0x080019b0                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x080018f0       0x20 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
- .rodata        0x08001910      0x174 Src/ssd1306libtest.o
- .rodata        0x08001a84       0x18 Src/system_stm32f0xx.o
-                0x08001a84                AHBPrescTable
-                0x08001a94                APBPrescTable
+ .rodata        0x080019b0       0x20 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
+ .rodata        0x080019d0      0x364 Src/sh1106test.o
+ .rodata        0x08001d34       0x18 Src/system_stm32f0xx.o
+                0x08001d34                AHBPrescTable
+                0x08001d44                APBPrescTable
  *(.rodata*)
  .rodata.str1.4
-                0x08001a9c       0x10 Src/main.o
+                0x08001d4c       0x10 Src/main.o
                                   0xe (size before relaxing)
-                0x08001aac                . = ALIGN (0x4)
+                0x08001d5c                . = ALIGN (0x4)
 
-.rel.dyn        0x08001aac        0x0
- .rel.iplt      0x08001aac        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+.rel.dyn        0x08001d5c        0x0
+ .rel.iplt      0x08001d5c        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08001aac        0x0
-                0x08001aac                __exidx_start = .
+.ARM            0x08001d5c        0x0
+                0x08001d5c                __exidx_start = .
  *(.ARM.exidx*)
-                0x08001aac                __exidx_end = .
+                0x08001d5c                __exidx_end = .
 
-.preinit_array  0x08001aac        0x0
-                0x08001aac                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x08001d5c        0x0
+                0x08001d5c                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x08001aac                PROVIDE (__preinit_array_end, .)
+                0x08001d5c                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x08001aac        0x4
-                0x08001aac                PROVIDE (__init_array_start, .)
+.init_array     0x08001d5c        0x4
+                0x08001d5c                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
- .init_array    0x08001aac        0x4 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
-                0x08001ab0                PROVIDE (__init_array_end, .)
+ .init_array    0x08001d5c        0x4 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+                0x08001d60                PROVIDE (__init_array_end, .)
 
-.fini_array     0x08001ab0        0x4
+.fini_array     0x08001d60        0x4
                 [!provide]                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08001ab0        0x4 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .fini_array    0x08001d60        0x4 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
                 [!provide]                PROVIDE (__fini_array_end, .)
-                0x08001ab4                _sidata = LOADADDR (.data)
+                0x08001d64                _sidata = LOADADDR (.data)
 
-.data           0x20000000        0x4 load address 0x08001ab4
+.data           0x20000000        0x4 load address 0x08001d64
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -3485,19 +3494,19 @@ LOAD c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6
                 0x20000004                . = ALIGN (0x4)
                 0x20000004                _edata = .
 
-.jcr            0x20000004        0x0 load address 0x08001ab8
+.jcr            0x20000004        0x0 load address 0x08001d68
  .jcr           0x20000004        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
 
-.igot.plt       0x20000004        0x0 load address 0x08001ab8
+.igot.plt       0x20000004        0x0 load address 0x08001d68
  .igot.plt      0x20000004        0x0 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
                 0x20000004                . = ALIGN (0x4)
 
-.bss            0x20000004      0x4a4 load address 0x08001ab8
+.bss            0x20000004      0x4a4 load address 0x08001d68
                 0x20000004                _sbss = .
                 0x20000004                __bss_start__ = _sbss
  *(.bss)
  .bss           0x20000004       0x1c c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
- .bss           0x20000020      0x420 Src/ssd1306.o
+ .bss           0x20000020      0x420 Src/sh1106.o
  *(.bss*)
  *(COMMON)
  COMMON         0x20000440        0x4 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
@@ -3509,7 +3518,7 @@ LOAD c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6
                 0x200004a8                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200004a8      0x600 load address 0x08001ab8
+                0x200004a8      0x600 load address 0x08001d68
                 0x200004a8                . = ALIGN (0x8)
                 [!provide]                PROVIDE (end, .)
                 [!provide]                PROVIDE (_end, .)
@@ -3544,9 +3553,9 @@ LOAD c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6
  .ARM.attributes
                 0x0000013f       0x31 Src/main.o
  .ARM.attributes
-                0x00000170       0x31 Src/ssd1306.o
+                0x00000170       0x31 Src/sh1106.o
  .ARM.attributes
-                0x000001a1       0x31 Src/ssd1306libtest.o
+                0x000001a1       0x31 Src/sh1106test.o
  .ARM.attributes
                 0x000001d2       0x31 Src/stm32f0xx_hal_msp.o
  .ARM.attributes
@@ -3564,49 +3573,51 @@ LOAD c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6
  .ARM.attributes
                 0x000002ee       0x2c c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x0000031a       0x1e c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+                0x0000031a       0x2c c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000346       0x1e c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
 OUTPUT(DISCO_TEST.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x6e98
+.debug_info     0x00000000     0x74c6
  .debug_info    0x00000000      0x5e0 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
  .debug_info    0x000005e0      0x761 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
  .debug_info    0x00000d41      0x5dd Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o
  .debug_info    0x0000131e      0x975 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
  .debug_info    0x00001c93     0x1d5a Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.o
- .debug_info    0x000039ed      0xcf3 Src/main.o
- .debug_info    0x000046e0     0x16b0 Src/ssd1306.o
- .debug_info    0x00005d90      0x40f Src/ssd1306libtest.o
- .debug_info    0x0000619f      0x922 Src/stm32f0xx_hal_msp.o
- .debug_info    0x00006ac1      0x108 Src/stm32f0xx_it.o
- .debug_info    0x00006bc9      0x24b Src/system_stm32f0xx.o
- .debug_info    0x00006e14       0x84 startup/startup_stm32f030x8.o
+ .debug_info    0x000039ed     0x108c Src/main.o
+ .debug_info    0x00004a79     0x1878 Src/sh1106.o
+ .debug_info    0x000062f1      0x4dc Src/sh1106test.o
+ .debug_info    0x000067cd      0x922 Src/stm32f0xx_hal_msp.o
+ .debug_info    0x000070ef      0x108 Src/stm32f0xx_it.o
+ .debug_info    0x000071f7      0x24b Src/system_stm32f0xx.o
+ .debug_info    0x00007442       0x84 startup/startup_stm32f030x8.o
 
-.debug_abbrev   0x00000000     0x1345
+.debug_abbrev   0x00000000     0x1384
  .debug_abbrev  0x00000000      0x1f7 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
  .debug_abbrev  0x000001f7      0x257 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
  .debug_abbrev  0x0000044e      0x1d4 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o
  .debug_abbrev  0x00000622      0x231 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
  .debug_abbrev  0x00000853      0x24f Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.o
- .debug_abbrev  0x00000aa2      0x1ff Src/main.o
- .debug_abbrev  0x00000ca1      0x223 Src/ssd1306.o
- .debug_abbrev  0x00000ec4      0x146 Src/ssd1306libtest.o
- .debug_abbrev  0x0000100a      0x18f Src/stm32f0xx_hal_msp.o
- .debug_abbrev  0x00001199       0xa7 Src/stm32f0xx_it.o
- .debug_abbrev  0x00001240       0xf3 Src/system_stm32f0xx.o
- .debug_abbrev  0x00001333       0x12 startup/startup_stm32f030x8.o
+ .debug_abbrev  0x00000aa2      0x217 Src/main.o
+ .debug_abbrev  0x00000cb9      0x21a Src/sh1106.o
+ .debug_abbrev  0x00000ed3      0x176 Src/sh1106test.o
+ .debug_abbrev  0x00001049      0x18f Src/stm32f0xx_hal_msp.o
+ .debug_abbrev  0x000011d8       0xa7 Src/stm32f0xx_it.o
+ .debug_abbrev  0x0000127f       0xf3 Src/system_stm32f0xx.o
+ .debug_abbrev  0x00001372       0x12 startup/startup_stm32f030x8.o
 
-.debug_loc      0x00000000     0x2c08
+.debug_loc      0x00000000     0x2ca7
  .debug_loc     0x00000000       0x7c Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
  .debug_loc     0x0000007c      0x39b Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
  .debug_loc     0x00000417      0x2bc Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o
  .debug_loc     0x000006d3      0x4c4 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
  .debug_loc     0x00000b97     0x1a8c Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.o
- .debug_loc     0x00002623      0x41e Src/ssd1306.o
- .debug_loc     0x00002a41       0x87 Src/ssd1306libtest.o
- .debug_loc     0x00002ac8       0x42 Src/stm32f0xx_hal_msp.o
- .debug_loc     0x00002b0a       0xfe Src/system_stm32f0xx.o
+ .debug_loc     0x00002623      0x3f4 Src/sh1106.o
+ .debug_loc     0x00002a17      0x150 Src/sh1106test.o
+ .debug_loc     0x00002b67       0x42 Src/stm32f0xx_hal_msp.o
+ .debug_loc     0x00002ba9       0xfe Src/system_stm32f0xx.o
 
-.debug_aranges  0x00000000      0x550
+.debug_aranges  0x00000000      0x548
  .debug_aranges
                 0x00000000       0xb8 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
  .debug_aranges
@@ -3620,33 +3631,33 @@ OUTPUT(DISCO_TEST.elf elf32-littlearm)
  .debug_aranges
                 0x000003e0       0x40 Src/main.o
  .debug_aranges
-                0x00000420       0x50 Src/ssd1306.o
+                0x00000420       0x48 Src/sh1106.o
  .debug_aranges
-                0x00000470       0x20 Src/ssd1306libtest.o
+                0x00000468       0x20 Src/sh1106test.o
  .debug_aranges
-                0x00000490       0x30 Src/stm32f0xx_hal_msp.o
+                0x00000488       0x30 Src/stm32f0xx_hal_msp.o
  .debug_aranges
-                0x000004c0       0x40 Src/stm32f0xx_it.o
+                0x000004b8       0x40 Src/stm32f0xx_it.o
  .debug_aranges
-                0x00000500       0x28 Src/system_stm32f0xx.o
+                0x000004f8       0x28 Src/system_stm32f0xx.o
  .debug_aranges
-                0x00000528       0x28 startup/startup_stm32f030x8.o
+                0x00000520       0x28 startup/startup_stm32f030x8.o
 
-.debug_ranges   0x00000000      0x4b0
+.debug_ranges   0x00000000      0x4a8
  .debug_ranges  0x00000000       0xa8 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
  .debug_ranges  0x000000a8       0x68 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
  .debug_ranges  0x00000110       0x48 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o
  .debug_ranges  0x00000158       0x88 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
  .debug_ranges  0x000001e0      0x1c8 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.o
  .debug_ranges  0x000003a8       0x30 Src/main.o
- .debug_ranges  0x000003d8       0x40 Src/ssd1306.o
- .debug_ranges  0x00000418       0x10 Src/ssd1306libtest.o
- .debug_ranges  0x00000428       0x20 Src/stm32f0xx_hal_msp.o
- .debug_ranges  0x00000448       0x30 Src/stm32f0xx_it.o
- .debug_ranges  0x00000478       0x18 Src/system_stm32f0xx.o
- .debug_ranges  0x00000490       0x20 startup/startup_stm32f030x8.o
+ .debug_ranges  0x000003d8       0x38 Src/sh1106.o
+ .debug_ranges  0x00000410       0x10 Src/sh1106test.o
+ .debug_ranges  0x00000420       0x20 Src/stm32f0xx_hal_msp.o
+ .debug_ranges  0x00000440       0x30 Src/stm32f0xx_it.o
+ .debug_ranges  0x00000470       0x18 Src/system_stm32f0xx.o
+ .debug_ranges  0x00000488       0x20 startup/startup_stm32f030x8.o
 
-.debug_macro    0x00000000     0xce2b
+.debug_macro    0x00000000     0xcd80
  .debug_macro   0x00000000      0x30d Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
  .debug_macro   0x0000030d      0x832 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
  .debug_macro   0x00000b3f       0x64 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
@@ -3708,41 +3719,37 @@ OUTPUT(DISCO_TEST.elf elf32-littlearm)
  .debug_macro   0x0000abfe      0x321 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o
  .debug_macro   0x0000af1f      0x2fb Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
  .debug_macro   0x0000b21a      0x2f1 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.o
- .debug_macro   0x0000b50b      0x30f Src/main.o
- .debug_macro   0x0000b81a      0x1e1 Src/main.o
- .debug_macro   0x0000b9fb      0x10c Src/main.o
- .debug_macro   0x0000bb07      0x37e Src/ssd1306.o
- .debug_macro   0x0000be85       0x4c Src/ssd1306.o
- .debug_macro   0x0000bed1       0x8d Src/ssd1306.o
- .debug_macro   0x0000bf5e      0x174 Src/ssd1306.o
- .debug_macro   0x0000c0d2       0x4a Src/ssd1306.o
- .debug_macro   0x0000c11c       0x10 Src/ssd1306.o
- .debug_macro   0x0000c12c       0x35 Src/ssd1306.o
- .debug_macro   0x0000c161       0x16 Src/ssd1306.o
- .debug_macro   0x0000c177       0x16 Src/ssd1306.o
- .debug_macro   0x0000c18d       0x29 Src/ssd1306.o
- .debug_macro   0x0000c1b6       0x1c Src/ssd1306.o
- .debug_macro   0x0000c1d2      0x37e Src/ssd1306libtest.o
- .debug_macro   0x0000c550       0x16 Src/ssd1306libtest.o
- .debug_macro   0x0000c566      0x2e9 Src/stm32f0xx_hal_msp.o
- .debug_macro   0x0000c84f      0x2f3 Src/stm32f0xx_it.o
- .debug_macro   0x0000cb42      0x2e9 Src/system_stm32f0xx.o
+ .debug_macro   0x0000b50b      0x319 Src/main.o
+ .debug_macro   0x0000b824       0xf8 Src/main.o
+ .debug_macro   0x0000b91c      0x1e1 Src/main.o
+ .debug_macro   0x0000bafd      0x112 Src/main.o
+ .debug_macro   0x0000bc0f      0x380 Src/sh1106.o
+ .debug_macro   0x0000bf8f       0x16 Src/sh1106.o
+ .debug_macro   0x0000bfa5       0x35 Src/sh1106.o
+ .debug_macro   0x0000bfda       0x16 Src/sh1106.o
+ .debug_macro   0x0000bff0       0x16 Src/sh1106.o
+ .debug_macro   0x0000c006       0x29 Src/sh1106.o
+ .debug_macro   0x0000c02f      0x374 Src/sh1106test.o
+ .debug_macro   0x0000c3a3      0x118 Src/sh1106test.o
+ .debug_macro   0x0000c4bb      0x2e9 Src/stm32f0xx_hal_msp.o
+ .debug_macro   0x0000c7a4      0x2f3 Src/stm32f0xx_it.o
+ .debug_macro   0x0000ca97      0x2e9 Src/system_stm32f0xx.o
 
-.debug_line     0x00000000     0x6d8c
+.debug_line     0x00000000     0x6dba
  .debug_line    0x00000000      0x96f Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
  .debug_line    0x0000096f      0x954 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
  .debug_line    0x000012c3      0x93e Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o
  .debug_line    0x00001c01      0xa8f Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
  .debug_line    0x00002690     0x12b1 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.o
- .debug_line    0x00003941      0x886 Src/main.o
- .debug_line    0x000041c7      0x9e6 Src/ssd1306.o
- .debug_line    0x00004bad      0x8d9 Src/ssd1306libtest.o
- .debug_line    0x00005486      0x821 Src/stm32f0xx_hal_msp.o
- .debug_line    0x00005ca7      0x842 Src/stm32f0xx_it.o
- .debug_line    0x000064e9      0x820 Src/system_stm32f0xx.o
- .debug_line    0x00006d09       0x83 startup/startup_stm32f030x8.o
+ .debug_line    0x00003941      0x8a2 Src/main.o
+ .debug_line    0x000041e3      0x9c3 Src/sh1106.o
+ .debug_line    0x00004ba6      0x90e Src/sh1106test.o
+ .debug_line    0x000054b4      0x821 Src/stm32f0xx_hal_msp.o
+ .debug_line    0x00005cd5      0x842 Src/stm32f0xx_it.o
+ .debug_line    0x00006517      0x820 Src/system_stm32f0xx.o
+ .debug_line    0x00006d37       0x83 startup/startup_stm32f030x8.o
 
-.debug_str      0x00000000    0x40702
+.debug_str      0x00000000    0x4075c
  .debug_str     0x00000000    0x3e54a Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
                               0x3e7b4 (size before relaxing)
  .debug_str     0x0003e54a      0x1f8 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
@@ -3753,17 +3760,17 @@ OUTPUT(DISCO_TEST.elf elf32-littlearm)
                               0x3e6fd (size before relaxing)
  .debug_str     0x0003ed49      0x928 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.o
                               0x3ec09 (size before relaxing)
- .debug_str     0x0003f671      0xcf0 Src/main.o
-                              0x3f737 (size before relaxing)
- .debug_str     0x00040361      0x2a3 Src/ssd1306.o
-                              0x3f590 (size before relaxing)
- .debug_str     0x00040604       0x18 Src/ssd1306libtest.o
-                              0x3f13e (size before relaxing)
- .debug_str     0x0004061c       0x1b Src/stm32f0xx_hal_msp.o
+ .debug_str     0x0003f671      0xd53 Src/main.o
+                              0x3f790 (size before relaxing)
+ .debug_str     0x000403c4      0x269 Src/sh1106.o
+                              0x3f5b9 (size before relaxing)
+ .debug_str     0x0004062d       0x49 Src/sh1106test.o
+                              0x3f1af (size before relaxing)
+ .debug_str     0x00040676       0x1b Src/stm32f0xx_hal_msp.o
                               0x3e8b2 (size before relaxing)
- .debug_str     0x00040637       0x71 Src/stm32f0xx_it.o
+ .debug_str     0x00040691       0x71 Src/stm32f0xx_it.o
                               0x3e280 (size before relaxing)
- .debug_str     0x000406a8       0x5a Src/system_stm32f0xx.o
+ .debug_str     0x00040702       0x5a Src/system_stm32f0xx.o
                               0x3e2eb (size before relaxing)
 
 .comment        0x00000000       0x6e
@@ -3774,24 +3781,25 @@ OUTPUT(DISCO_TEST.elf elf32-littlearm)
  .comment       0x0000006e       0x6f Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
  .comment       0x0000006e       0x6f Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.o
  .comment       0x0000006e       0x6f Src/main.o
- .comment       0x0000006e       0x6f Src/ssd1306.o
- .comment       0x0000006e       0x6f Src/ssd1306libtest.o
+ .comment       0x0000006e       0x6f Src/sh1106.o
+ .comment       0x0000006e       0x6f Src/sh1106test.o
  .comment       0x0000006e       0x6f Src/stm32f0xx_hal_msp.o
  .comment       0x0000006e       0x6f Src/stm32f0xx_it.o
  .comment       0x0000006e       0x6f Src/system_stm32f0xx.o
 
-.debug_frame    0x00000000      0xca8
+.debug_frame    0x00000000      0xcd4
  .debug_frame   0x00000000      0x174 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
  .debug_frame   0x00000174       0xe4 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
  .debug_frame   0x00000258       0xcc Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o
  .debug_frame   0x00000324      0x12c Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
  .debug_frame   0x00000450      0x56c Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.o
  .debug_frame   0x000009bc       0x88 Src/main.o
- .debug_frame   0x00000a44       0xc4 Src/ssd1306.o
- .debug_frame   0x00000b08       0x34 Src/ssd1306libtest.o
- .debug_frame   0x00000b3c       0x58 Src/stm32f0xx_hal_msp.o
- .debug_frame   0x00000b94       0x68 Src/stm32f0xx_it.o
- .debug_frame   0x00000bfc       0x38 Src/system_stm32f0xx.o
- .debug_frame   0x00000c34       0x20 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
- .debug_frame   0x00000c54       0x2c c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
- .debug_frame   0x00000c80       0x28 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000a44       0xbc Src/sh1106.o
+ .debug_frame   0x00000b00       0x40 Src/sh1106test.o
+ .debug_frame   0x00000b40       0x58 Src/stm32f0xx_hal_msp.o
+ .debug_frame   0x00000b98       0x68 Src/stm32f0xx_it.o
+ .debug_frame   0x00000c00       0x38 Src/system_stm32f0xx.o
+ .debug_frame   0x00000c38       0x20 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000c58       0x2c c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000c84       0x28 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000cac       0x28 c:/users/riyamoll/downloads/eclipse-cpp-neon-3-win32/eclipse/plugins/fr.ac6.mcu.externaltools.arm-none.win32_1.13.3.201707031232/tools/compiler/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a(lib_a-memmove.o)

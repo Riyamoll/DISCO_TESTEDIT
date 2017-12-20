@@ -25,8 +25,8 @@
 #define 	SSD1306_SPI SPI1
 
 // Pin Definitions
-#define 	SSD1306_DC_PORT							GPIOB     // Data/Command
-#define 	SSD1306_DC_PIN							(12)
+#define 	SSD1306_DC_PORT				GPIOB     // Data/Command
+#define 	SSD1306_DC_PIN				(12)
 #define 	SSD1306_RST_PORT            GPIOB     // Reset
 #define 	SSD1306_RST_PIN             (13)
 #define 	SSD1306_CS_PORT             GPIOA     // Select
@@ -36,13 +36,13 @@
 #define 	SSD1306_SDAT_PORT           GPIOB     // Serial Data
 #define 	SSD1306_SDAT_PIN            (5)
 
-#define   BLACK     									0
-#define   WHITE     									1
-#define   INVERSE   									2
+#define   BLACK     						0
+#define   WHITE     						1
+#define   INVERSE   						2
 
-#define   MULTILAYER   								1
-#define   LAYER0											1
-#define   LAYER1											2
+#define   MULTILAYER   						1
+#define   LAYER0							1
+#define   LAYER1							2
 
 #define		SSD1306_LCDWIDTH         	132
 #define		SSD1306_LCDHEIGHT          	64
@@ -61,9 +61,9 @@
 #define SSD1306_SETDISPLAYCLOCKDIV        0xD5
 #define SSD1306_SETPRECHARGE              0xD9
 #define SSD1306_SETMULTIPLEX              0xA8
-#define SSD1306_SETLOWCOLUMN              0x02
+#define SSD1306_SETLOWCOLUMN              0x10
 #define SSD1306_SETHIGHCOLUMN             0x10
-#define SSD1306_SETSTARTLINE              0x09
+#define SSD1306_SETSTARTLINE              0x00
 #define SSD1306_SETPAGEADDRESS            0xB0
 #define SSD1306_MEMORYMODE                0x20
 #define SSD1306_COMSCANINC                0xC0
@@ -72,6 +72,7 @@
 #define SSD1306_CHARGEPUMP                0x8D
 #define SSD1306_EXTERNALVCC               0x1
 #define SSD1306_SWITCHCAPVCC              0x2
+#define SSD1306_COUNTOF(a)          (sizeof(a) / sizeof(a[0]))
 // macros
 #define SSD1306MSDELAY(c)      HAL_Delay( c );
 	
@@ -88,14 +89,13 @@ typedef struct {
 }	SSD1306_polyTypeDef;
 
 
-// Initialisation/Config Prototypes
+// Initialization/Config Prototypes
 void    ssd1306SendByte(uint8_t);
 void    ssd1306Init (uint8_t);
 void    ssd1306Refresh ( void );
 void    ssd1306TurnOn(void);
 void    ssd1306TurnOff(void);
-void ssd1306ClearScreen(void);
-void    ssd1306ShiftFrameBuffer( uint16_t height, uint16_t direction);
-void    ssd1306MixFrameBuffer(void);
+void    ssd1306ClearScreen(void);
+void    ssd1306ShiftFrameBuffer( );
 
 #endif

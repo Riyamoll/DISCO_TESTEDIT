@@ -36,9 +36,11 @@
   ******************************************************************************
   */
 /* Includes ------------------------------------------------------------------*/
+#include <fonts.h>
+#include <sh1106.h>
 #include "main.h"
 #include "stm32f0xx_hal.h"
-#include "ssd1306.h"
+
 /* USER CODE BEGIN Includes */
 
 /* USER CODE END Includes */
@@ -96,17 +98,19 @@ int main(void)
   ssd1306Init(SSD1306_CHARGEPUMP);
  // ssd1306ClearScreen( LAYER0 | LAYER1 );
  ssd1306Refresh();
-  HAL_Delay(100);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
+
+
   while (1)
   {
-  /* USER CODE END WHILE */
 
-  /* USER CODE BEGIN 3 */
-		SSD1306LibTest();
+	SSD1306LibTest();
+
 
   }
   /* USER CODE END 3 */
