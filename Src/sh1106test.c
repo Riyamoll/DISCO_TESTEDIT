@@ -31,12 +31,12 @@
   ******************************************************************************
   */
 /* Includes ------------------------------------------------------------------*/
+#include <fonts.h>
 #include "stm32f0xx_hal.h"
-#include "ssd1306.h"
 #include "stdlib.h"
 #include <math.h>
+#include <sh1106.h>
 #include <string.h>
-#include "font5x7.h"
 #include "main.h"
 
 #define DATA(c)       do { HAL_GPIO_WritePin( DC_GPIO_Port, DC_Pin, GPIO_PIN_SET); \
@@ -45,64 +45,92 @@
 #define CMD(c)        do { HAL_GPIO_WritePin( DC_GPIO_Port, DC_Pin, GPIO_PIN_RESET); \
                            ssd1306SendByte( c ); \
                          } while (0);
-	
+
+
+
+
 void SSD1306LibTest(void)
 {
-	int i,p,j,k=0,l=132;
+	int i,p,j,k=0,l=132,z,z1,z2,q;
+	z=sizeof(font_midlayer);
+	z1=sizeof(font_uplayer);
+	z2=sizeof(font_downlayer);
 
-	/* ---Test routine--- */
-    /* take display buffer */
-    ssd1306ClearScreen();
-for(p=0;p<132;p++)
-{
-	 for(j=0XB2;j<0XB5;j++)
+	// buffers to copy
+	uint8_t font_midlayera[z];
+	uint8_t font_uplayera[z];
+	uint8_t font_downlayera[z];
+
+	// copying to duplicate buffers
+	for(q=0;q<=z;q++)
+	{
+		font_midlayera[q]=font_midlayer[q];
+	}
+
+	for(q=0;q<=z1;q++)
+		{
+		font_uplayera[q]=font_uplayer[q];
+		}
+
+	for(q=0;q<=z2;q++)
+		{
+		font_downlayera[q]=font_downlayer[q];
+		}
+	    /* ---Test routine--- */
+        /* take display buffer */
+     ssd1306ClearScreen();
+     for(p=0;p<280;p++)
+        {
+    // move font
+	memmove(&font_midlayera[0], &font_midlayera[1], sizeof(font_midlayer)-1);
+	memmove(&font_uplayera[0], &font_uplayera[1], sizeof(font_uplayer)-1);
+	memmove(&font_downlayera[0], &font_downlayera[1], sizeof(font_downlayer)-1);
+
+	// write on the display
+	 for(j=0XB2;j<0XB5;)
 	       {
 	    	   switch (j)
 	    	   {
 	    	   case 0XB2:
 	    	   {
-	       for(i = k; i < l; i++)
-	         {
-	         	CMD(j);
-	          DATA(font5x8[i]);
-	         }
-	    	   }
-	break;
-	    	   case 0XB3:
-	    	   {
-	         for(i = k; i < l; i++)
-	         {
-	         	 CMD(j);
-	             DATA(font5x7[i]);
-	          // HAL_Delay  (20);
-	         }
-	    	   }
-	break;
-	case 0XB4:
-	    	       	   {
-	            for(i = k; i < l; i++)
-	            {
+	           for(i = k; i < l; i++)
+	             {
 	         	   CMD(j);
-	             DATA(font5x9[i]);
+	               DATA(font_uplayera[i]);
+	              }
+	           j++;
+	    	   }
+	           break;
+	           case 0XB3:
+	    	   {
+	             for(i = k; i < l; i++)
+	              {
+	         	    CMD(j);
+	                DATA(font_midlayera[i]);
+	              }
+	           j++;
+	    	   }
+	           break;
+	           case 0XB4:
+	           {
+	             for(i = k; i < l; i++)
+	              {
+	         	    CMD(j);
+	                DATA(font_downlayera[i]);
+	               }
 	            }
-	   }
-	  }
-	 }
-}
-
-
- HAL_Delay(10000);
-      ssd1306Refresh();
-    }
+	    	    j++;
+	              }
+	            }
+	             HAL_Delay(15);
+                }
+ ssd1306Refresh();
+ }
 
 
 
 	
 
 
-
-
-  
-  
   
 /************************** (C) COPYRIGHT STMicroelectronics ****************END OF FILE****/

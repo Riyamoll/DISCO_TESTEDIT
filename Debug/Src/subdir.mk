@@ -5,24 +5,24 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Src/main.c \
-../Src/ssd1306.c \
-../Src/ssd1306libtest.c \
+../Src/sh1106.c \
+../Src/sh1106test.c \
 ../Src/stm32f0xx_hal_msp.c \
 ../Src/stm32f0xx_it.c \
 ../Src/system_stm32f0xx.c 
 
 OBJS += \
 ./Src/main.o \
-./Src/ssd1306.o \
-./Src/ssd1306libtest.o \
+./Src/sh1106.o \
+./Src/sh1106test.o \
 ./Src/stm32f0xx_hal_msp.o \
 ./Src/stm32f0xx_it.o \
 ./Src/system_stm32f0xx.o 
 
 C_DEPS += \
 ./Src/main.d \
-./Src/ssd1306.d \
-./Src/ssd1306libtest.d \
+./Src/sh1106.d \
+./Src/sh1106test.d \
 ./Src/stm32f0xx_hal_msp.d \
 ./Src/stm32f0xx_it.d \
 ./Src/system_stm32f0xx.d 
